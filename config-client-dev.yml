@@ -14,5 +14,5 @@ eureka:
     service-url:
       defaultZone: http://eureka1.server.com:8701/eureka/,http://eureka2.server.com:8702/eureka/,http://eureka3.server.com:8703/eureka/
 
-info: 654321
+info: 13579
 
