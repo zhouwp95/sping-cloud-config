@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: config-client
+
+server:
+  port: 52601
+
+eureka:
+  instance:
+    hostname: eureka1.client.com
+    lease-renewal-interval-in-seconds: 5
+    lease-expiration-duration-in-seconds: 10
+  client:
+    service-url:
+      defaultZone: http://eureka1.server.com:8701/eureka/,http://eureka2.server.com:8702/eureka/,http://eureka3.server.com:8703/eureka/
+
+info: local-config-client-dev
